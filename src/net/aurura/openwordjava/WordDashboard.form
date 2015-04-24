@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="jTabbedPane1" min="-2" pref="247" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+      <Events>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jTabbedPane1FocusGained"/>
+      </Events>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="Dashboard">
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="DashboardFocusGained"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Dashboard">
+                <Property name="tabTitle" type="java.lang.String" value="Dashboard"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="WordNot" min="-2" pref="209" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="LabelNot" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="AddButt" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="LoadButt" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="WordOri" min="-2" pref="209" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="LabelOri" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="WordDef" min="-2" pref="209" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="LabelDef" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="91" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="AddButt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="LoadButt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="WordOri" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="LabelOri" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="WordDef" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="LabelDef" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="WordNot" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="LabelNot" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="64" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="AddButt">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add word"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddButtActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="WordOri">
+            </Component>
+            <Component class="javax.swing.JTextField" name="WordDef">
+            </Component>
+            <Component class="javax.swing.JTextField" name="WordNot">
+            </Component>
+            <Component class="javax.swing.JLabel" name="LabelOri">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Word"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LabelDef">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Defination"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LabelNot">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Notation"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="LoadButt">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Load"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="LoadButtActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="Recite">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Recite">
+                <Property name="tabTitle" type="java.lang.String" value="Recite"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="startSession" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="uselessLabel5" min="-2" pref="58" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="statLabel" min="-2" pref="143" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="uselessLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="defineField" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="sessionCheck" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="uselessLabel3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                      <Component id="defLabel" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="uselessLabel4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                      <Component id="notLabel" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="uselessLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                      <Component id="txtLabel" min="-2" pref="231" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="31" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="startSession" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="uselessLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="statLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="defineField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sessionCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="uselessLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="uselessLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="uselessLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="defLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="uselessLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="notLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="startSession">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Get a word"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="startSessionActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="uselessLabel5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Status:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="sessionCheck">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Check!"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sessionCheckActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="defineField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="uselessLabel2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Word is.."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="uselessLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Word Text:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="uselessLabel3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Defination:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="uselessLabel4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Notation:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="txtLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=".."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="defLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=".."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="notLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=".."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="statLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=".."/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Working File">
+                <Property name="tabTitle" type="java.lang.String" value="Working File"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="workingFileLabel" min="-2" pref="120" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="workingFileSelect" min="-2" pref="137" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="changeFileEvent" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="53" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="workingFileLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="workingFileSelect" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="changeFileEvent" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="128" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="workingFileSelect">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="workingFileSelectActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Your currently working file:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="workingFileLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=".."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="changeFileEvent">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Change"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="changeFileEventActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
